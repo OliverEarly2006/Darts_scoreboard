@@ -1,7 +1,8 @@
-# Darts_scoreboard
-Python program to track scores and player averages in 501 darts 
-A Python program that automates scoring and tracks player averages in a game of 501 darts.  
-Built as a personal project to develop programming skills, apply logical problem-solving and I enjoy playing darts.
+# Darts scoreboard
+Python program that automates scoring and tracks player averages in a game of 501 darts.  
+Built as a personal project to practice programming skills, logical problem-solving, and apply maths in code.  
+
+
 ## Features
 - Supports two players in a game of 501.
 - Calculates and displays each player's running score.
@@ -9,6 +10,20 @@ Built as a personal project to develop programming skills, apply logical problem
 - Detects invalid throws (overshooting zero).
 - Declares the winner automatically.
 ## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/OliverEarly2006/Darts_scoreboard.git
+
+
+Example output:
+Game of 501 Darts Alice vs Bob
+Alice Score = 421 | Average = 80.0
+Bob Score = 460  | Average = 41.0
+...
+Game Over! Winner is Alice
+
+## Future Improvements
+- Add input validation and error handling for a smoother user experience.  
+- Develop a simple GUI (Tkinter or PyQt) for more user-friendly interaction.  
+- Export results to a CSV file for saving match history.  
+- Extend to multiplayer games.  
+- **Embedded Systems Extension:** Adapt the project to run on an ESP32 microcontroller, displaying the scoreboard on a TFT screen. This will involve rewriting the program in C++/MicroPython and integrating hardware control, bringing the project closer to real-world embedded design.
+
+ 
