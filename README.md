@@ -10,6 +10,9 @@ Built as a personal project to practice programming skills, logical problem-solv
 - Detects invalid throws (overshooting zero).
 - Declares the winner automatically.
 ## How to Run
+Run the Python script directly:
+```bash
+python Dartsscoreboard.py
 
 
 Example output:
