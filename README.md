@@ -1,32 +1,26 @@
-# Darts scoreboard
-Python program that automates scoring and tracks player averages in a game of 501 darts.  
-Built as a personal project to practice programming skills, logical problem-solving, and apply maths in code.  
+# 🎯 Darts Scoreboard (Python)
 
+A simple Python project simulating a **501 darts game** for two players.  
+It tracks scores, averages, and determines the winner, with added features like:
+- Input validation using `try/except` to prevent invalid scores.
+- Automatic CSV export of game results (`darts_results.csv`).
+- Basic **data visualisation** with `matplotlib` to show score progression.
 
-## Features
-- Supports two players in a game of 501.
-- Calculates and displays each player's running score.
-- Tracks and outputs average scores per player.
-- Detects invalid throws (overshooting zero).
-- Declares the winner automatically.
+## Example Features
+- Alternate turns between players.
+- Prevents invalid scores (e.g., <0 or >180).
+- Overshoot handling (keeps previous score if you go below 0).
+- Saves results and averages for each match.
+- Plots a graph of per-turn scoring.
+
+## Future Plans
+- Extend to track **running averages** on the graph.
+- Display results on a **TFT screen via ESP32**.
+- Possible GUI version (Tkinter or PyQt).
+
 ## How to Run
-Run the Python script directly:
-```bash
-python Dartsscoreboard.py
+: Jupyter Notebook
+1. Open the notebook in Jupyter:
+   ```bash
+   jupyter notebook Dartsscoreboard.ipynb
 
-
-Example output:
-Game of 501 Darts Alice vs Bob
-Alice Score = 421 | Average = 80.0
-Bob Score = 460  | Average = 41.0
-...
-Game Over! Winner is Alice
-
-## Future Improvements
-- Add input validation and error handling for a smoother user experience.  
-- Develop a simple GUI (Tkinter or PyQt) for more user-friendly interaction.  
-- Export results to a CSV file for saving match history.  
-- Extend to multiplayer games.  
-- **Embedded Systems Extension:** Adapt the project to run on an ESP32 microcontroller, displaying the scoreboard on a TFT screen. This will involve rewriting the program in C++/MicroPython and integrating hardware control, bringing the project closer to real-world embedded design.
-
- 
